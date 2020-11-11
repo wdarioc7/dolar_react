@@ -1,0 +1,15 @@
+.bvcStocks .Body{
+    max-height: 427px;
+    min-height: 427px;
+    overflow-y: scroll;
+}
+
+.BVCLogo{
+    width: 50px;
+    display: inline-block;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.Inline{
+    display: inline;
+}

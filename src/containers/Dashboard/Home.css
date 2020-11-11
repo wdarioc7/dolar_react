@@ -1,0 +1,13 @@
+.FirstRow{
+    margin-top: 6%;
+}
+
+@media(max-width: 670px){
+    .FirstRow{
+        margin-top: 18%;
+    }
+}
+
+.Label{
+    font-size: 15px;
+}

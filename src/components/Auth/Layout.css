@@ -1,0 +1,36 @@
+.LoginContainer{
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.RegisterContainer{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.Logo{
+    width: 100%;
+}
+
+@media(min-width:820px) and (max-width:1281px){
+    .LoginContainer{
+        width: 35%;
+    }
+}
+
+@media(min-width: 644px) and (max-width:820px){
+    .LoginContainer{
+        width: 50%;
+    }
+}
+
+@media(max-width: 640px){
+    .LoginContainer{
+        width: 80%;
+    }
+    .RegisterContainer{
+        width: 80%;
+    }
+}

@@ -1,0 +1,3 @@
+.NiftyTable{
+    margin: 0 !important; /* Delete unnecesary margin it should be controlled by parent element */
+}

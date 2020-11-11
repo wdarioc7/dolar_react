@@ -1,0 +1,40 @@
+.DolarEndDay {
+    width: 100%;
+}
+
+.padd20 {
+    padding: 0 10%;
+}
+
+.AsideChartPanel {
+    padding: 15px;
+    height: 318px;
+}
+
+.SubTitle {
+    font-size: 1.4em;
+    position: absolute;
+    line-height: 0.8em;
+    top: 25%
+}
+
+.SubTitleDisclaimer {
+    top: 50%;
+    position: absolute;
+}
+
+.Label {
+    font-size: 15px;
+}
+
+@media(max-width: 500px) {
+    .SubTitle {
+        font-size: 1.1em;
+        line-height: 1em;
+        position: relative !important;
+        margin-bottom: 10px
+    }
+    .SubTitleDisclaimer {
+        position: relative !important;
+    }
+}

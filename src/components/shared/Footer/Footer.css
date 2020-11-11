@@ -1,0 +1,93 @@
+.RightReserved{
+    height: 1em;
+    background-color: #0077AC;
+    color: white;
+    line-height: 2em;
+}
+
+.RightReservedBackground{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3em;
+    background-color: #0077AC;
+    width: 100%;
+}
+
+
+.SetFXNegative{
+    width: 100%;
+    margin-top: 25px;
+    max-width: 200px;
+}
+
+.SiteMap{
+    background-color: #25476A;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.Col100{
+    /* min-height: 180px !important; */
+}
+
+.SitemapBackground{
+    position: absolute;
+    bottom: 1em;
+    left: 0;
+    height: 218px;
+    background-color: #25476A;
+    width: 100%;
+}
+
+.FooterMiddle{
+    line-height: 1.7em;
+    margin-top: 19px;
+    height: 110px;
+    padding-top: 0;
+    padding-left: 60px;
+    color: white !important;
+}
+
+.FooterMiddle li a{
+    color: white;
+    cursor: pointer;
+}
+
+.LastMiddle{
+    margin-top: 4px;
+    color: white !important;
+    padding-left: 50px;
+}
+
+.LastMiddle h5{
+    color:white;
+}
+
+.LastMiddle ul{
+    line-height: 2em;
+    padding-left: 0;
+}
+
+.LastMiddle ul li a{
+    color: white;
+    cursor: pointer;
+}
+
+.Address{
+    line-height: 2em;
+    list-style: none;
+    color: white;
+}
+
+@media(min-width:200px) and (max-width:1281px){
+    .SiteMap{
+        height: auto;
+    }
+    .FooterMiddle{
+        height: auto;
+    }
+    .Address{
+        padding-bottom: 20px;
+    }
+}

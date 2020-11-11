@@ -1,0 +1,35 @@
+.HeaderLogo{
+    height: 55px;
+    width: 170px;
+    padding-left: 10px;
+}
+
+.HeaderLogoSM{
+    height: 43px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.HeaderLogoDiv{
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+
+.HeaderLogoDivSM{
+    left: 5px;
+}
+
+.WelcomeName{
+    line-height: 4.5em;
+    color: white !important;
+}
+
+
+@media(max-width: 370px){
+    .HeaderLogo{
+        width: 130px;
+        height: 45px;
+        margin-top: 8px;
+    }
+}
